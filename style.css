@@ -81,6 +81,10 @@
      margin-left: 10%;
  }
  
+ .left h2 {
+     color: #ffbd39;
+ }
+ 
  .btn {
      width: 140px;
      height: 45px;
@@ -404,5 +408,19 @@
      }
      .child1 {
          width: 100%;
+     }
+     .marg {
+         margin-top: 50%;
+     }
+     .left {
+         height: 500px;
+         background-image: url('./pic.jpeg');
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         font-size: 20px;
+     }
+     .left h2 {
+         color: #ffbd39;
      }
  }
