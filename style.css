@@ -57,12 +57,28 @@
      width: 50%;
  }
  
+ .cardd {
+     border-radius: 4px;
+     background-color: #333;
+     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+     padding: 14px 80px 18px 36px;
+     cursor: pointer;
+ }
+ 
+ .cardd h1 {
+     color: #ffbd39;
+ }
+ 
+ .cardd:hover {
+     transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+ }
+ 
  .right img {
-     width: 60%;
-     height: 400px;
+     width: 65%;
+     height: 500px;
      margin-left: 10%;
-     border: 10px solid whitesmoke;
-     border-radius: 50%;
  }
  
  .btn {
@@ -159,7 +175,7 @@
  
  .projects {
      display: flex;
-     font-family: 'Dancing Script', cursive;
+     font-family: "Poppins", Arial, sans-serif;
      background-color: #000;
      color: white;
  }
@@ -315,6 +331,15 @@
  a {
      color: white;
      text-decoration: none;
+ }
+ 
+ .skills {
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .fr {
+     width: 20%;
  }
  
  @media only screen and (max-width: 480px) {
