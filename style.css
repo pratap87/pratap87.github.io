@@ -54,7 +54,15 @@
  }
  
  .right {
-     width: 50%;
+     width: 70%;
+     border-radius: 30%;
+
+     height: 500px;
+     background-image: url('./Arun.png');
+     background-position:center;
+     background-size: contain;
+     background-repeat: no-repeat;
+    
  }
  
  .cardd {
@@ -256,11 +264,35 @@
      margin-bottom: 20px;
      color: white
  }
+ .card :hover{
+    transform: rotateX('10deg');
+ }
+  
+ .card-me {
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 10px;
+ 
+    width: 50%;
+       margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: larger;
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left-card{
+    width: 20%;
+     
+}
  
  .card h1 {
      font-weight: 900;
      font-size: 26px;
-     font-family: "Poppins", Arial, sans-serif;
+   
      color: #ffbd39;
  }
  
@@ -413,7 +445,7 @@
      }
      .left {
          height: 500px;
-         background-image: url('./pic.jpeg');
+         background-image: url('./Arun.png');
          background-position: center;
          background-size: cover;
          background-repeat: no-repeat;
